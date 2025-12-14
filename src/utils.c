@@ -6,7 +6,6 @@
 #include <dirent.h>
 #include <errno.h>
 
-#include "commandbox.h"
 
 void print_file_info(const char *path, const char *name) {
     struct stat st;
