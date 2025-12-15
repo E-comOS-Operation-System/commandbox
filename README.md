@@ -15,6 +15,8 @@ Such as `switch user1` , you will switch to user "user1".
 ```
 [computer:user] root > switch user1
 ```
+### How do we understand what this actually means?
+It's very simple; it's just a library that simply allows ebts to call commands.
 ## How exactly does it work?
 Let's take the operation of "ebts" as an example.<br>
 ebts ------->(send a request)commandbox --------->(Find and load command)---------------> Run it , and show result to user<br>
