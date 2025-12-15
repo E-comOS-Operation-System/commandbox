@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 BINDIR = ../bin/commands
 
-COMMANDS = lookup saw del copy goto info-of output
+COMMANDS = lookup saw del copy goto info-of output hostname
 TARGETS = $(addprefix $(BINDIR)/, $(COMMANDS))
 
 .PHONY: all clean
